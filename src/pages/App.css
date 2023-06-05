@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.head {
+  margin: 2em 0;
+}
+
+button {
+  border-radius: 10px;
+}
+
+.card {
+  padding: 10em 0;
+  background-color: coral;
+  border-radius: 2em;
+}
+.cgWord {
+  margin: 3em 0;
+  background-color : rgb(21, 86, 209);
+  color: cornsilk;
+  font-weight: bold;
+  width: 8em;
+  display: inline-block;
+	text-decoration :none;
+	text-align: center;
+  transition: .2s;
+	
+	/*--水平方向 垂直方向 色--*/
+	box-shadow: 3px 3px #4b4b4b;
+}
+
+.cgWord:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+}
+
+.read-the-docs {
+  color: #888;
+}
+.players {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.player {
+  margin: 2em 2em 0.5em 2em;
+  padding: 1em;
+  background-color: rgba(20, 192, 230, 0.675);
+  border-radius: 1em;
+}
+.player button {
+  margin: 0.5em;
+  display: inline-block;
+	text-decoration :none;
+	text-align: center;
+	transition: .2s;
+  font-weight: bold;
+	/*--水平方向 垂直方向 色--*/
+	box-shadow: 3px 3px #4d4b4b;
+  background-color: rgb(245, 239, 239);
+}
+
+.player button:active{
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+}
+.player p {
+  font-size: 1.5em;
+}
+
+.btnAdd {
+  margin-top: 2em;
+  background-color : rgb(21, 86, 209);
+  color: cornsilk;
+  font-weight: bold;
+  display: inline-block;
+	text-decoration :none;
+	text-align: center;
+  transition: .2s;
+  box-shadow: 3px 3px #4b4b4b;
+}
+.btnAdd:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+}
+
+.btnDelete {
+  display: inline-block;
+	text-decoration :none;
+	text-align: center;
+  transition: .2s;
+  box-shadow: 3px 3px #4b4b4b;
+  font-size: 0.8em;
+  background-color: rgb(245, 239, 239);
+}
+.btnDelete:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+}
